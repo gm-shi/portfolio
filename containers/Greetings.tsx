@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
-import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 
 const Greetings = () => {
@@ -49,8 +48,18 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                <Col lg="6" style={{ paddingLeft: 100 }}>
+                  <img
+                    style={{
+                      borderRadius: '25% 10%',
+                      width: '100%',
+                      height: 'auto',
+                      maxWidth: 400,
+                      filter: 'drop-shadow(20px 10px 10px #2a63bf)',
+                    }}
+                    src="/img/avatar.jpg"
+                    alt="avatar"
+                  />
                 </Col>
               </Row>
             </div>
@@ -69,7 +78,6 @@ const Greetings = () => {
             </svg>
           </div>
         </section>
-        {/* 1st Hero Variation */}
       </div>
     </main>
   );
