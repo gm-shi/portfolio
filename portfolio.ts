@@ -13,9 +13,8 @@ export const greetings: GreetingsType = {
   name: 'Gongming Shi',
   title: "Hi all, I'm Gongming",
   description:
-    "Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.",
-  resumeLink:
-    'https://www.linkedin.com/in/gongming-shi-90a176234/', //To do
+    'Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.',
+  resumeLink: 'https://www.linkedin.com/in/gongming-shi-90a176234/', //To do
 };
 
 export const openSource = {
@@ -32,11 +31,11 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'Tech Skills',
-  subTitle: 'JUNIOR FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK AND LEARN NEW THINGS EVERYDAY',
+  subTitle:
+    'JUNIOR FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK AND LEARN NEW THINGS EVERYDAY',
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
@@ -144,10 +143,8 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    
   ],
 };
-
 
 export const educationInfo: EducationType[] = [
   {
@@ -178,11 +175,10 @@ export const experience: ExperienceType[] = [
     date: 'Jan 2022 – Mar 2022',
     desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
     descBullets: [
-    	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     ],
   },
-
 ];
 
 export const projects: ProjectType[] = [
@@ -192,9 +188,7 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/1hanzla100/developer-portfolio',
     link: 'https://developer-portfolio-1hanzla100.vercel.app/',
   },
-
 ];
-
 
 // option to hide or show the ContactUs component
 // export const showContactUs: boolean = true;
@@ -202,13 +196,9 @@ export const projects: ProjectType[] = [
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Gongming Shi',
-  description:
-    'A passionate Fresh Grad & Junior Full Stack Web Developer.',
+  description: 'A passionate Fresh Grad & Junior Full Stack Web Developer.',
   author: 'Hanzla Tauqeer',
   // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
-  keywords: [
-    'Gongming Shi',
-    'Ming',
-  ],
+  keywords: ['Gongming Shi', 'Ming'],
 };
