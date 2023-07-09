@@ -1,7 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { greetings } from '../portfolio';
-import { Button, Container, Row, Col } from 'reactstrap';
+import {
+  Button,
+  Container,
+  Row,
+  Col,
+  UncontrolledTooltip,
+  Card,
+  CardBody,
+} from 'reactstrap';
 import SocialLinks from '../components/SocialLinks';
+import { Icon } from '@iconify/react';
 
 const Greetings = () => {
   useEffect(() => {
@@ -31,6 +40,18 @@ const Greetings = () => {
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
+
+                  <Card
+                    className="shadow shadow-lg--hover mt-4"
+                    style={{ display: 'flex' }}
+                  >
+                    <CardBody>
+                      {greetings.personalInfo?.map((info, i) => {
+                        return <p key={i}>{info}</p>;
+                      })}
+                    </CardBody>
+                  </Card>
+
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
@@ -48,7 +69,7 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6" style={{ paddingLeft: 80 }}>
+                <Col lg="6" style={{ paddingLeft: 100 }}>
                   <img
                     style={{
                       borderRadius: '25% 10%',
@@ -57,7 +78,7 @@ const Greetings = () => {
                       maxWidth: 400,
                       filter: 'drop-shadow(20px 10px 10px #2a63bf)',
                     }}
-                    src="/img/avatar.jpg"
+                    src="https://gm-shi.github.io/developer-portfolio/img/avatar.jpg"
                     alt="avatar"
                   />
                 </Col>

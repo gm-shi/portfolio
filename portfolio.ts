@@ -12,6 +12,11 @@ import {
 export const greetings: GreetingsType = {
   name: 'Gongming Shi',
   title: "Hi all, I'm Gongming",
+  personalInfo: [
+    'Email: gm.shi@outlook.com',
+    'Phone: 0455417699',
+    'Location: Sydney',
+  ],
   description:
     'Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.',
   resumeLink: 'https://www.linkedin.com/in/gongming-shi-90a176234/', //To do
@@ -141,7 +146,8 @@ export const educationInfo: EducationType[] = [
     duration: 'June 2020 - August 2023',
     desc: 'Major in Enterprise System Development & Networking and Cybersecurity',
     grade: 'GPA: 6.83 / 7.0 | WAM: 90.79 / 100',
-    schoolLogoUrl: '/img/utsLogo.png',
+    schoolLogoUrl:
+      'https://gm-shi.github.io/developer-portfolio/img/utsLogo.png',
     descBullets: [
       "Dean's List Information Technology (2021)",
       "Dean's List Information Technology (2022)",
@@ -152,21 +158,31 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Junior Full Stack Developer',
+    company: 'HolonIQ',
+    companyLogo: 'https://gm-shi.github.io/developer-portfolio/img/holoniq.jpg',
+    date: 'June 2022 - Present',
+    desc: 'I worked as junior full stack web developer to develop plaform new features and maintain lagacy code using TypeScript, React, Expressjs, PostgreSQL, Chart.js and some other libraries.',
+    descBullets: [
+      'Constructed and maintained web applications using technologies such as JavaScript, TypeScript, React, GraphQL, and PostgreSQL.',
+      'Developed RESTful APIs utilizing Express.js framework and seamlessly incorporated into client-side application by leveraging Axios Promise',
+      'Coded with CSS, SASS and Bluprint.js to create responsive and visually appealing UI',
+      'Utilized Postgraphile to create PostgreSQL database schemas and queries, improving database performance and ensuring data integrity',
+      'Refactored legacy code using modern react and typescript to reusable functions and web components',
+      ' Implemented version control using Git, ensuring efficient collaboration with team members and smooth development of code changes',
+      'Conducted rigorous testing and comprehensive debugging to ensure reliability and functionality of software',
+    ],
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    role: 'Software Developer Intern',
+    company: 'HolonIQ',
+    companyLogo: 'https://gm-shi.github.io/developer-portfolio/img/holoniq.jpg',
+    date: 'February 2022 - June 2022',
+    desc: 'I worked as web developer to develop a Chrome extension for plaform users. The Chrome extension allowing user to see platfrom data and create object throgh it and create Restful APIs using Expressjs to connect with the Chrome extension plugins',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      ' Developed a Chrome extension show Platform data to user and design entity profiles such as organization and person while browsing with Chrome',
+      ' Collaborated closely with a senior developer to troubleshoot and resolve software bugs, while contributing to feature development initiatives',
+      ' Constructed web components using Typescript and React framework',
     ],
   },
 ];
@@ -179,9 +195,6 @@ export const projects: ProjectType[] = [
     link: 'https://developer-portfolio-1hanzla100.vercel.app/',
   },
 ];
-
-// option to hide or show the ContactUs component
-// export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
