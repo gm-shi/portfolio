@@ -180,9 +180,9 @@ export const experience: ExperienceType[] = [
     date: 'February 2022 - June 2022',
     desc: 'I worked as web developer to develop a Chrome extension for plaform users. The Chrome extension allowing user to see platfrom data and create object throgh it and create Restful APIs using Expressjs to connect with the Chrome extension plugins',
     descBullets: [
-      ' Developed a Chrome extension show Platform data to user and design entity profiles such as organization and person while browsing with Chrome',
-      ' Collaborated closely with a senior developer to troubleshoot and resolve software bugs, while contributing to feature development initiatives',
-      ' Constructed web components using Typescript and React framework',
+      'Developed a Chrome extension show Platform data to user and design entity profiles such as organization and person while browsing with Chrome',
+      'Collaborated closely with a senior developer to troubleshoot and resolve software bugs, while contributing to feature development initiatives',
+      'Constructed web components using Typescript and React framework',
     ],
   },
 ];
