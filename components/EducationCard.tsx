@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, Badge } from 'reactstrap';
 import { EducationType } from '../types/sections';
-import Fade from 'react-reveal/Fade';
+import { Icon } from '@iconify/react';
 
 const EducationCard = ({
   schoolName,
@@ -10,36 +10,40 @@ const EducationCard = ({
   desc,
   grade,
   descBullets,
+  schoolLogoUrl,
 }: EducationType) => {
   return (
-    <Fade left duration={2000}>
-      <Card className="card-lift--hover shadow mt-4">
-        <CardBody>
-          <div className="d-flex px-3">
-            <div className="pl-4">
+    <Card className=" shadow shadow-lg--hover mt-4">
+      <CardBody>
+        <div className="d-flex px-3">
+          <div className="pl-4">
+            <div style={{ display: 'flex', alignItems: 'flex-end' }}>
+              <img src={schoolLogoUrl} alt="logo" width={80} />
               <h5 className="text-info">{schoolName}</h5>
-              <h6>{subHeader}</h6>
-              <Badge color="info" className="mr-1">
-                {duration}
-              </Badge>
-              {grade && (
-                <Badge color="primary" className="mr-1">
-                  {grade}
-                </Badge>
-              )}
-              <p className="description mt-3">{desc}</p>
-              <ul>
-                {descBullets
-                  ? descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
-                  : null}
-              </ul>
             </div>
+            <h6>{subHeader}</h6>
+            <p className="description mt-3">{desc}</p>
+            <Badge color="info" className="mr-1">
+              {duration}
+            </Badge>
+            {grade && (
+              <Badge color="primary" className="mr-1">
+                {grade}
+              </Badge>
+            )}
+            <br />
+            <br />
+            <ul>
+              {descBullets
+                ? descBullets.map((desc) => {
+                    return <li key={desc}>{desc}</li>;
+                  })
+                : null}
+            </ul>
           </div>
-        </CardBody>
-      </Card>
-    </Fade>
+        </div>
+      </CardBody>
+    </Card>
   );
 };
 

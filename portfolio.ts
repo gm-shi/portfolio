@@ -41,7 +41,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building RESTful APIs Node.js, Express.js'),
       ],
       softwareSkills: [
         {
@@ -53,8 +53,16 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-css',
         },
         {
+          skillName: 'Scss',
+          fontAwesomeClassName: 'vscode-icons:file-type-scss',
+        },
+        {
           skillName: 'JavaScript',
           fontAwesomeClassName: 'logos:javascript',
+        },
+        {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'vscode-icons:file-type-typescript-official',
         },
         {
           skillName: 'Reactjs',
@@ -65,14 +73,17 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          skillName: 'Nodejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-node',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          skillName: 'Java',
+          fontAwesomeClassName: 'vscode-icons:file-type-java',
         },
-
+        {
+          skillName: 'Webpack',
+          fontAwesomeClassName: 'vscode-icons:file-type-webpack',
+        },
         {
           skillName: 'Redux',
           fontAwesomeClassName: 'logos:redux',
@@ -90,16 +101,16 @@ export const skillsSection: SkillsSectionType = {
     {
       title: 'Cloud Infra-Architecture',
       skills: [
+        emoji('⚡ AWS Certified Cloud Practitioner (9399YSG2024EQX93)'),
         emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
           '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Building CI/CD pipelines for automated testing & deployment using cloud services'
         ),
       ],
       softwareSkills: [
-        // ? Check README To get icon details
         {
           skillName: 'AWS',
           fontAwesomeClassName: 'logos:aws',
@@ -109,36 +120,16 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:microsoft-azure',
         },
         {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
-        },
-        {
           skillName: 'PostgreSQL',
           fontAwesomeClassName: 'logos:postgresql',
         },
         {
+          skillName: 'GraphQL',
+          fontAwesomeClassName: 'vscode-icons:file-type-graphql',
+        },
+        {
           skillName: 'Github',
           fontAwesomeClassName: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
         },
       ],
     },
@@ -147,14 +138,16 @@ export const skillsSection: SkillsSectionType = {
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'University of Technology Sydney',
+    subHeader: 'Bachelor of Science in Information Technology',
+    duration: 'June 2020 - August 2023',
+    desc: 'Major in Enterprise System Development & Networking and Cybersecurity',
+    grade: 'GPA: 6.83 / 7.0 | WAM: 90.79 / 100',
+    schoolLogoUrl: '/img/utsLogo.png',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      "Dean's List Information Technology (2021)",
+      "Dean's List Information Technology (2022)",
+      "Dean's List Information Technology (2023)",
     ],
   },
 ];
@@ -196,8 +189,7 @@ export const projects: ProjectType[] = [
 export const seoData: SEODataType = {
   title: 'Gongming Shi',
   description: 'A passionate Fresh Grad & Junior Full Stack Web Developer.',
-  author: 'Hanzla Tauqeer',
+  author: 'Gongming Shi',
   // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: ['Gongming Shi', 'Ming'],
 };

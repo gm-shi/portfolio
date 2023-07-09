@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 export type SEODataType = {
   title: string;
   author?: string;
@@ -57,6 +59,7 @@ export type EducationType = {
   desc: string;
   grade?: string;
   descBullets?: string[];
+  schoolLogoUrl?: string;
 };
 
 // * EXPERIENCE SECTION
