@@ -1,16 +1,7 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
-import {
-  Button,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip,
-  Card,
-  CardBody,
-} from 'reactstrap';
+import { Button, Container, Row, Col, Card, CardBody } from 'reactstrap';
 import SocialLinks from '../components/SocialLinks';
-import { Icon } from '@iconify/react';
 
 const Greetings = () => {
   useEffect(() => {
