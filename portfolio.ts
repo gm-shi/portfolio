@@ -18,7 +18,7 @@ export const greetings: GreetingsType = {
     'Location: Sydney',
   ],
   description:
-    'Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.',
+    'Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS gained solid foundation of programming languages, data sctructures and algorithms. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.',
   resumeLink:
     'https://drive.google.com/file/d/1Udkxy4G89zTje7zbEUx8sjgIFv_kQzJk/view?usp=sharing',
 };
