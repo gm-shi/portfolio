@@ -35,7 +35,7 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'Tech Skills',
+  title: 'Technical Skills',
   subTitle:
     'JUNIOR FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK AND LEARN NEW THINGS EVERYDAY',
   data: [
