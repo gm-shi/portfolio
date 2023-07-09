@@ -37,11 +37,9 @@ export const skillsSection: SkillsSectionType = {
     {
       title: 'Full Stack Development',
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
+        emoji('⚡ Building responsive Single-Page-Apps (SPA) in React.js'),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs Node.js, Express.js'),
+        emoji('⚡ Building RESTful APIs Node.js'),
       ],
       softwareSkills: [
         {
