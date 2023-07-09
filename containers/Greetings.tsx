@@ -56,16 +56,21 @@ const Greetings = () => {
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                        color="default"
+                      <a
                         href={greetings.resumeLink}
+                        target="_blank"
+                        rel="noreferrer"
                       >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
-                        </span>
-                        <span className="btn-inner--text">See My Resume</span>
-                      </Button>
+                        <Button
+                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          color="default"
+                        >
+                          <span className="btn-inner--icon mr-1">
+                            <i className="fa fa-file" />
+                          </span>
+                          <span className="btn-inner--text">See My Resume</span>
+                        </Button>
+                      </a>
                     </div>
                   )}
                 </Col>
