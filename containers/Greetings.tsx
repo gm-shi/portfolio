@@ -55,7 +55,7 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6" style={{ paddingLeft: 100 }}>
+                <Col lg="6" style={{ paddingLeft: 50 }}>
                   <img
                     style={{
                       borderRadius: '25% 10%',
