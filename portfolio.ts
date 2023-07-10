@@ -189,12 +189,12 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
-  {
-    name: 'Photography Share Point',
-    desc: 'Allow user to comment, like and follow other users and content they have posted',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
-  },
+  // {
+  //   name: 'Photography Share Point',
+  //   desc: 'Allow user to comment, like and follow other users and content they have posted',
+  //   github: 'https://github.com/1hanzla100/developer-portfolio',
+  //   link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+  // },
 ];
 
 // See object prototype on /types/section.ts page
