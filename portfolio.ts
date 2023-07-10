@@ -147,8 +147,7 @@ export const educationInfo: EducationType[] = [
     duration: 'June 2020 - August 2023',
     desc: 'Major in Enterprise System Development & Networking and Cybersecurity',
     grade: 'GPA: 6.83 / 7.0 | WAM: 90.79 / 100',
-    schoolLogoUrl:
-      'https://gm-shi.github.io/developer-portfolio/img/utsLogo.png',
+    schoolLogoUrl: 'https://gm-shi.github.io/portfolio/img/utsLogo.png',
     descBullets: [
       "Dean's List Information Technology (2021)",
       "Dean's List Information Technology (2022)",
@@ -161,7 +160,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Junior Full Stack Developer',
     company: 'HolonIQ',
-    companyLogo: 'https://gm-shi.github.io/developer-portfolio/img/holoniq.jpg',
+    companyLogo: 'https://gm-shi.github.io/portfolio/img/holoniq.jpg',
     date: 'June 2022 - Present',
     desc: 'I worked as junior full stack web developer to develop plaform new features and maintain lagacy code using TypeScript, React, Expressjs, PostgreSQL, Chart.js and some other libraries.',
     descBullets: [
@@ -177,7 +176,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Developer Intern',
     company: 'HolonIQ',
-    companyLogo: 'https://gm-shi.github.io/developer-portfolio/img/holoniq.jpg',
+    companyLogo: 'https://gm-shi.github.io/portfolio/img/holoniq.jpg',
     date: 'February 2022 - June 2022',
     desc: 'I worked as web developer to develop a Chrome extension for plaform users. The Chrome extension allowing user to see platfrom data and create object throgh it and create Restful APIs using Expressjs to connect with the Chrome extension plugins',
     descBullets: [

@@ -1,9 +1,9 @@
 {
-  "name": "developer-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Gongming Shi' Portfolio.",
   "main": "index.js",
-  "repository": "https://github.com/gm-shi/developer-portfolio",
+  "repository": "https://github.com/gm-shi/portfolio",
   "author": "Gongming Shi",
   "license": "MIT",
   "scripts": {
