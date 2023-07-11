@@ -89,6 +89,22 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      <a
+        href={socialLinks.resumeLink}
+        target="_blank"
+        rel="noreferrer"
+        className="pl-3"
+      >
+        <Button
+          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+          color="default"
+        >
+          <span className="btn-inner--icon mr-1">
+            <i className="fa fa-file" />
+          </span>
+          <span className="btn-inner--text">See My Resume</span>
+        </Button>
+      </a>
     </div>
   );
 };

@@ -28,34 +28,21 @@ const Greetings = () => {
                   >
                     <CardBody>
                       {greetings.personalInfo?.map((info, i) => {
-                        return <p key={i}>{info}</p>;
+                        return (
+                          <p key={i} className="lead" style={{ marginTop: 0 }}>
+                            <span style={{ fontWeight: 'bold' }}>
+                              {`${info.title}: `}
+                            </span>
+                            {info.value}
+                          </p>
+                        );
                       })}
                     </CardBody>
                   </Card>
 
                   <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
-                  {greetings.resumeLink && (
-                    <div className="btn-wrapper my-4">
-                      <a
-                        href={greetings.resumeLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-file" />
-                          </span>
-                          <span className="btn-inner--text">See My Resume</span>
-                        </Button>
-                      </a>
-                    </div>
-                  )}
                 </Col>
-                <Col lg="6" style={{ paddingLeft: 50 }}>
+                <Col lg="5" className={'mt-6 pl-5'}>
                   <img
                     style={{
                       borderRadius: '25% 10%',
@@ -64,10 +51,14 @@ const Greetings = () => {
                       maxWidth: 400,
                       filter: 'drop-shadow(20px 10px 10px #2a63bf)',
                     }}
-                    src="https://gm-shi.github.io/portfolio/img/avatar.jpg"
+                    // src="https://gm-shi.github.io/portfolio/img/avatar.jpg"
+                    src="/img/avatar.jpg"
                     alt="avatar"
                   />
                 </Col>
+              </Row>
+              <Row>
+                <SocialLinks />
               </Row>
             </div>
           </Container>

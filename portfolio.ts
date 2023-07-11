@@ -13,9 +13,18 @@ export const greetings: GreetingsType = {
   name: 'Gongming Shi',
   title: "Hi all, I'm Gongming",
   personalInfo: [
-    'Email: gm.shi@outlook.com',
-    'Phone: 0455417699',
-    'Location: Sydney',
+    {
+      title: 'Email',
+      value: 'gm.shi@outlook.com',
+    },
+    {
+      title: 'Phone',
+      value: '0455417699',
+    },
+    {
+      title: 'Location',
+      value: 'Sydney',
+    },
   ],
   description:
     'Task-oriented and highly motivated software developer with a strong focus on web development. Recent graduate in Information Technology in UTS gained solid foundation of programming languages, data sctructures and algorithms. Proficient in full stack technologies with a solid understanding of responsive web design and frameworks. Seeking an opportunity to apply my skills and contribute to a dynamic web development team, leveraging my technical acumen and creative mindset to build innovative solutions.',
@@ -33,6 +42,8 @@ export const socialLinks: SocialLinksType = {
   url: 'https://gm-shi.github.io/',
   linkedin: 'https://www.linkedin.com/in/gongming-shi-90a176234/',
   github: 'https://github.com/gm-shi',
+  resumeLink:
+    'https://drive.google.com/file/d/1Udkxy4G89zTje7zbEUx8sjgIFv_kQzJk/view?usp=sharing',
 };
 
 export const skillsSection: SkillsSectionType = {
