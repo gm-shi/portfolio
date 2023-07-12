@@ -51,8 +51,8 @@ const Greetings = () => {
                       maxWidth: 400,
                       filter: 'drop-shadow(20px 10px 10px #2a63bf)',
                     }}
-                    // src="https://gm-shi.github.io/portfolio/img/avatar.jpg"
-                    src="/img/avatar.jpg"
+                    src="https://gm-shi.github.io/portfolio/img/avatar.jpg"
+                    // src="/img/avatar.jpg"
                     alt="avatar"
                   />
                 </Col>
