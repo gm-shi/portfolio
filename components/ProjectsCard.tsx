@@ -33,7 +33,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   href={link}
                   target="_blank"
                   rel="noopener"
-                  aria-label="Twitter"
+                  aria-label="Photoshare"
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-arrow-right mr-2" />
